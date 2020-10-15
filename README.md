@@ -40,9 +40,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
   - Acesse a pasta NLW3
 
-  ```bash
-  cd NLW3
-  ```
+    ```bash
+    cd NLW3
+    ```
 
 ### Backend
 
@@ -50,19 +50,19 @@ Para executar a backend siga as instruções
 
 - Acesse a pasta NLW3/backend
 
-```bash
-cd backend
-```
+  ```bash
+  cd backend
+  ```
 
 - Instale as dependências
 
-```bash
-# com yarn
-yarn
+  ```bash
+  # com yarn
+  yarn
 
-# com npm
-npm install
-```
+  # com npm
+  npm install
+  ```
 
 _Obs: Caso use o npm, você precisa apagar o arquivo yarn.lock_
 
@@ -80,13 +80,13 @@ Também precisa editar o IP do arquivo **backend/src/views/images_view.ts** para
 
 - Inicie a aplicação
 
-```bash
-# com yarn
-yarn dev
+  ```bash
+  # com yarn
+  yarn dev
 
-# com npm
-npm run dev
-```
+  # com npm
+  npm run dev
+  ```
 
 A aplicação será executada em [http://localhost:3333](http://localhost:3333)
 
@@ -100,19 +100,19 @@ Para executar a aplicação web siga as instruções
 
 - Acesse a pasta NLW3/web
 
-```bash
-cd web
-```
+  ```bash
+  cd web
+  ```
 
 - Instale as dependências
 
-```bash
-# com yarn
-yarn
+  ```bash
+  # com yarn
+  yarn
 
-# com npm
-npm install
-```
+  # com npm
+  npm install
+  ```
 
 _Obs: Caso use o npm, você precisa apagar o arquivo yarn.lock_
 
@@ -120,12 +120,12 @@ Antes de iniciar a aplicação você precisa criar um arquivo chamado **.env** d
 
 - Inicie a aplicação
 
-```bash
-# com yarn
-yarn start
+  ```bash
+  # com yarn
+  yarn start
 
-# com npm
-npm run start
-```
+  # com npm
+  npm run start
+  ```
 
 A aplicação será executada em [http://localhost:3000](http://localhost:3000)
