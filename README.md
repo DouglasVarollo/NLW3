@@ -92,7 +92,7 @@ A aplicação será executada em [http://localhost:3333](http://localhost:3333)
 
 Para testar a API você pode usar um aplicativo chamado [Insomnia](https://insomnia.rest/) e importar o arquivo **Insomnia.json** que está na pasta **.github**. Também pode simplesmente clicar nesse botão abaixo
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=NLW%20%233&uri=https%3A%2F%2Fraw.githubusercontent.com%2FDouglasVarollo%2FNLW3%2Fmaster%2F.github%2FInsomnia.json)
+<a href="https://insomnia.rest/run/?label=NLW%20%233&uri=https%3A%2F%2Fraw.githubusercontent.com%2FDouglasVarollo%2FNLW3%2Fmain%2F.github%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 
 ### Web
 
