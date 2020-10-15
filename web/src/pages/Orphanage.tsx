@@ -4,7 +4,7 @@ import { FiClock, FiInfo } from "react-icons/fi";
 import { useParams } from "react-router-dom";
 import { Map, Marker, TileLayer } from "react-leaflet";
 
-import Sidebar from "../components/Siderbar";
+import Sidebar from "../components/Sidebar";
 import api from "../services/api";
 import mapIcon from "../utils/mapIcon";
 

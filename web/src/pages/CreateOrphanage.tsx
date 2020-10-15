@@ -4,7 +4,7 @@ import { FiPlus } from "react-icons/fi";
 import { useHistory } from "react-router-dom";
 import { LeafletMouseEvent } from "leaflet";
 
-import Sidebar from "../components/Siderbar";
+import Sidebar from "../components/Sidebar";
 import api from "../services/api";
 import mapIcon from "../utils/mapIcon";
 
