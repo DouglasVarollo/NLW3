@@ -8,12 +8,13 @@
 - [Como executar o projeto](#Como-executar-o-projeto)
   - [Backend](#Backend)
   - [Web](#Web)
+  - [Mobile](#Mobile)
 
 <p align="center"><img src="./.github/capa.png" /></p>
 
 ## Sobre o projeto
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+O Happy é uma aplicação para conectar pessoas à casas de acolhimento institucional
 
 ## Requisitos
 
@@ -129,3 +130,51 @@ Antes de iniciar a aplicação você precisa criar um arquivo chamado **.env** d
   ```
 
 A aplicação será executada em [http://localhost:3000](http://localhost:3000)
+
+### Mobile
+
+Para executar a aplicação mobile siga as instruções
+
+- Faça a instalação do expo-cli
+
+  ```bash
+  # com yarn
+  yarn global add expo-cli
+
+  # com npm
+  npm install expo-cli -g
+  ```
+
+- Acesse a pasta NLW3/mobile
+
+  ```bash
+  cd mobile
+  ```
+
+- Instale as dependências
+
+  ```bash
+  # com yarn
+  yarn
+
+  # com npm
+  npm install
+  ```
+
+_Obs: Caso use o npm, você precisa apagar o arquivo yarn.lock_
+
+Antes de iniciar a aplicação você precisa editar o IP do arquivo **mobile/src/services/api.ts** para o [IP interno do seu computador](https://tecnoblog.net/309657/como-descobrir-qual-e-o-meu-ip/).
+
+- Inicie a aplicação
+
+  ```bash
+  # com yarn
+  yarn start
+
+  # com npm
+  npm run start
+  ```
+
+A aplicação será executada em [http://localhost:19002](http://localhost:19002)
+
+Para abrir o aplicativo no seu celular [siga as instruções](https://docs.expo.io/get-started/create-a-new-app/#opening-the-app-on-your-phonetablet)
